@@ -1,0 +1,100 @@
+@media (max-width: 2000px) {
+    .about_con {
+        padding: 20px;
+    }
+
+    .about_con p:nth-child(2) {
+        display: none;
+    }
+    .img_show{
+        display: none; 
+    }
+}
+
+@media (max-width: 1200px) {
+    .about_con {
+        padding: 20px;
+    }
+
+    .contact_links:nth-child(2) {
+        /* padding-left: 10px; */
+        margin-left: -30px;
+    }
+    .about_con p:nth-child(2) {
+        display: none;
+    }
+     .img_show{
+        display: none; 
+    }
+
+}
+/*  */
+/*  */
+@media (max-width: 992px) {
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: auto;
+    }
+
+    .about_con {
+        padding: 0px;
+    }
+
+    .about_con p:nth-child(2) {
+        display: none;
+    }
+
+    .service_con {
+        margin-top: 60px;
+
+    }
+
+    .team_con_inner {
+        margin-bottom: 20px;
+    }
+
+    .testi_con {
+        margin-bottom: 30px;
+    }
+
+    .contact_con.dn {
+        display: none;
+    }
+     .img_show{
+        display: none; 
+    }
+
+}
+/*  */
+/*  */
+
+@media (max-width: 768px) {
+    .slider_cont_main {
+        text-align: center !important;
+    }
+     .img_show{
+        display: none; 
+    }
+
+}
+
+/*  */
+/*  */
+@media (max-width: 576px) {
+    .welcome_con_main{
+        text-align: center;
+    }
+    .social_icon ul{
+        justify-content: center !important ;
+    }
+    .port_con  {
+        margin-top: 14px;
+    } 
+    .pt{
+         padding-top: 5px;
+     } 
+      #img_show{
+        display: none; 
+    }
+ 
+}
+
